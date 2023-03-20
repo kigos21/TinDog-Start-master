@@ -17,7 +17,6 @@ body {
 }
 
 #title h1 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
@@ -42,7 +41,7 @@ body {
 
 .nav-link {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /* Download buttons */
@@ -56,4 +55,30 @@ body {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+}
+
+/* Features Section */
+
+#features .row {
+    padding: 5rem 0;
+}
+
+#features p {
+    padding: 0 1rem;
+    color: #8f8f8f;
+}
+
+#features i {
+    color: #ef8172;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#features i:hover {
+    color: #ff4c68;
+}
+
+#features h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
 }
