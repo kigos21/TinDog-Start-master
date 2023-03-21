@@ -10,6 +10,7 @@ body {
 #title {
     background-color: #ff4c68;
     color: #fff;
+    padding-bottom: 5%;
 }
 
 .container-fluid {
@@ -53,11 +54,18 @@ h1 {
 /* Title image */
 
 .title-image {
-    width: 60%;
+    width: 20rem;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* Features Section */
+
+#features {
+    background-color: #fefefe;
+    position: relative;
+}
 
 #features .row {
     padding: 5rem 0;
@@ -129,10 +137,23 @@ h2 {
     text-align: center;
 }
 
-.card {
-    margin: 12px 0;
+.card-header {
+    padding-top: 1rem;
 }
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* Media Query Breakpoints */
+
+@media (max-width: 1282px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
