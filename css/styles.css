@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Title Breakpoint */
 
-@media (max-width: 1282px) {
+@media (max-width: 1284px) {
     #title {
         text-align: center;
     }
@@ -160,6 +160,12 @@ h2 {
 
 .card-header {
     padding-top: 1rem;
+}
+
+.card-footer {
+    background-color: #fff;
+    border-top: none;
+    padding-bottom: 0.75rem;
 }
 
 .pricing-column {
