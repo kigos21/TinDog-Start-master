@@ -7,6 +7,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+}
+
+/* Title section */
+
 #title {
     background-color: #ff4c68;
     color: #fff;
@@ -17,8 +23,7 @@ body {
     padding: 3% 15%;
 }
 
-h1 {
-    font-weight: 900;
+.big-heading {
     font-size: 3.5rem;
     line-height: 1.5;
 }
