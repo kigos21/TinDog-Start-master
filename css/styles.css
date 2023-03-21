@@ -10,7 +10,7 @@ body {
 #title {
     background-color: #ff4c68;
     color: #fff;
-    padding-bottom: 5%;
+    padding-bottom: 5rem;
 }
 
 .container-fluid {
@@ -60,6 +60,19 @@ h1 {
     right: 30%;
 }
 
+/* Title Breakpoint */
+
+@media (max-width: 1282px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
 /* Features Section */
 
 #features {
@@ -97,6 +110,7 @@ h3 {
 #testimonials {
     background-color: #ef8172;
     text-align: center;
+    padding-top: 5rem;
     color: #fff;
 }
 
@@ -135,6 +149,8 @@ h2 {
 
 #pricing {
     text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .card-header {
@@ -145,15 +161,35 @@ h2 {
     padding: 3% 2%;
 }
 
-/* Media Query Breakpoints */
+/* Call to Action Section */
 
-@media (max-width: 1282px) {
-    #title {
-        text-align: center;
-    }
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 6rem 15%;
+}
 
-    .title-image {
-        position: static;
-        transform: rotate(0);
-    }
+#cta h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fefefe;
+}
+
+/* Footer Section */
+
+#footer {
+    text-align: center;
+    padding: 6rem 15%;
+}
+
+#footer p {
+    color: #8f8f8f;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
 }
